@@ -6,12 +6,10 @@ app = Flask(__name__)
 url_map = {}
 reverse_map = {}
 
-# Base URL
 BASE_URL = "http://127.0.0.1:5000/"
 CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
 def generate_short_url():
-    """Generate a random 6-character short URL."""
     import random
     return ''.join(random.choices(CHARACTERS, k=6))
 
