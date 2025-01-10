@@ -38,4 +38,4 @@ This is a simple URL shortening service built with Flask. It allows users to sho
 ## Files
 - **`app.py`**: Contains the Python backend code using Flask.
 - **`templates/index.html`**: HTML form for user input.
-- **`templates/result.html`**: Displays the shortened URL after generation.
+- **`templates/result.html`**: Displays the shortened URL after generation. 
