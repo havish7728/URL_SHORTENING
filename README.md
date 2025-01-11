@@ -14,7 +14,7 @@ This is a simple URL shortening service built with Flask. It allows users to sho
     ```
 2. Install required dependencies:
     ```bash
-    pip install Flask
+    pip install -r requirements.txt
     ```
 3. Run the application:
     ```bash
